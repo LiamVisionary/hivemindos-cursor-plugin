@@ -1,0 +1,24 @@
+{
+  "name": "hivemindos",
+  "version": "1.0.0",
+  "description": "Connect Cursor and Grok Bot to HivemindOS: research reports, image and video generation, hundreds of models, memory that keeps what your agent learns, databases, websites, wallets and more, through one key.",
+  "author": { "name": "HivemindOS" },
+  "homepage": "https://hivemindos.app/superagent-api/",
+  "repository": "https://github.com/LiamVisionary/hivemindos-cursor-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": ["hivemindos", "hivemind", "superagent api", "hive research", "hivemindos superbrain"],
+  "skills": "skills/",
+  "mcpServers": "mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "HIVEMINDOS_API_KEY": {
+        "type": "string",
+        "title": "HivemindOS API key",
+        "description": "A SuperAgent API key (starts with hmos_live_). Create one at https://hivemindos.app/superagent-api/console/#keys and give it only the services this agent needs."
+      }
+    },
+    "required": ["HIVEMINDOS_API_KEY"]
+  }
+}

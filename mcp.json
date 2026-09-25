@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "hivemindos": {
+      "url": "https://api.hivemindos.app/mcp",
+      "headers": {
+        "Authorization": "Bearer ${HIVEMINDOS_API_KEY}"
+      }
+    }
+  }
+}
